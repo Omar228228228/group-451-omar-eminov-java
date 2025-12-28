@@ -219,19 +219,19 @@ public class Classwork_1 {
 
         // 31
         int players = 3;
-        if (players == 2) System.out.println("Дуэль");
-        else if (players <= 4) System.out.println("Малая команда");
-        else System.out.println("Большая команда");
+        if (players == 2) {System.out.println("Дуэль");}
+        else if (players <= 4) {System.out.println("Малая команда");}
+        else {System.out.println("Большая команда");}
 
         // 32
         int battery = 15;
-        if (battery < 20) System.out.println("Заряди телефон!");
-        else System.out.println("Всё ок");
+        if (battery < 20) {System.out.println("Заряди телефон!");}
+        else {System.out.println("Всё ок");}
 
         // 33
         int floor = 12;
-        if (floor > 10) System.out.println("Высокий этаж");
-        else System.out.println("Низкий");
+        if (floor > 10) {System.out.println("Высокий этаж");}
+        else {System.out.println("Низкий");}
 
         // 34
         String subject = "математика";
@@ -242,8 +242,8 @@ public class Classwork_1 {
         }
 
         // 35
-        int dice = 5;
-        switch(dice) {
+        int shag = 5;
+        switch(shag) {
             case 1 -> System.out.println("Шаг вперёд");
             case 2 -> System.out.println("Шаг назад");
             case 3 -> System.out.println("Пропусти ход");
@@ -271,8 +271,8 @@ public class Classwork_1 {
 
         // 37
         int candies = 8;
-        if (candies > 10) System.out.println("Слишком много сладкого!");
-        else System.out.println("Можно съесть");
+        if (candies > 10) {System.out.println("Слишком много сладкого!");}
+        else {System.out.println("Можно съесть");}
 
         // 38
         int country = 7;
@@ -284,14 +284,14 @@ public class Classwork_1 {
 
         // 39
         String ans = "да";
-        if (ans.equals("да")) System.out.println("Согласен");
-        else if (ans.equals("нет")) System.out.println("Не согласен");
-        else System.out.println("Не понял");
+        if (ans.equals("да")) {System.out.println("Согласен");}
+        else if (ans.equals("нет")) {System.out.println("Не согласен");}
+        else {System.out.println("Не понял");}
 
         // 40
         int minutes = 3;
-        if (minutes < 5) System.out.println("Скоро звонок!");
-        else System.out.println("Ещё долго");
+        if (minutes < 5) {System.out.println("Скоро звонок!");}
+        else {System.out.println("Ещё долго");}
 
         // 41
         String transport = "велосипед";
@@ -305,7 +305,7 @@ public class Classwork_1 {
         int licho_omara = 4;
         switch(licho_omara) {
             case 1 -> System.out.println(":(");
-            case 2 -> System.out.println(":/");
+            case 2 -> System.out.println(":>");
             case 3 -> System.out.println(":|");
             case 4 -> System.out.println(":)");
             case 5 -> System.out.println(":D");
@@ -313,9 +313,9 @@ public class Classwork_1 {
 
         // 43
         int errors = 2;
-        if (errors == 0) System.out.println("Отлично!");
-        else if (errors <= 3) System.out.println("Хорошо");
-        else System.out.println("Надо потренироваться");
+        if (errors == 0) {System.out.println("Отлично!");}
+        else if (errors <= 3) {System.out.println("Хорошо");}
+        else {System.out.println("Надо потренироваться");}
 
         // 44
         int animal = 2;
@@ -328,8 +328,8 @@ public class Classwork_1 {
         // 45
         int weight = 5;
         if (weight < 1) System.out.println("Письмо");
-        else if (weight <= 10) System.out.println("Посылка");
-        else System.out.println("Груз");
+        else if (weight <= 10) {System.out.println("Посылка");}
+        else {System.out.println("Груз");}
 
         // 46
         int finger = 3;
@@ -343,12 +343,12 @@ public class Classwork_1 {
 
         // 47
         char test = 'B';
-        if (test == 'A' || test == 'B') System.out.println("Прошёл");
-        else System.out.println("Не прошёл");
+        if (test == 'A' || test == 'B') {System.out.println("Прошёл");}
+        else {System.out.println("Не прошёл");}
 
         // 48
         int level = 7;
-        if (level == 10) System.out.println("Максимальный уровень!");
+        if (level == 10) { System.out.println("Максимальный уровень!");}
         else System.out.println("Ещё качаться");
 
         // 49
