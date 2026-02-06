@@ -1,4 +1,4 @@
-package Classwork_3;
+package classwork_3;
 
 import java.util.Arrays;
 
