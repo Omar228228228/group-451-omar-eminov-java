@@ -2,6 +2,9 @@ package classwork_11;
 import java.util.Scanner;
 
 public class Main {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -49,6 +52,11 @@ public class Main {
             } else {
                 System.out.println("Ty ugadal!");
             }
+        }
+        // ploxoye
+        String[] abcde = {"A","B","C","D","E"};
+        for(int i = 0; i <= abcde.length; i++){
+            for(int j = 0; j<abcde.length;);
         }
 
     }
